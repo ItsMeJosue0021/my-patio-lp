@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="w-full max-w-[1200px] mx-auto min-h-screen bg-transparent flex items-center px-4 md:px-6 py-16">
+              <div className="w-full max-w-[1200px] mx-auto min-h-screen bg-white flex items-center px-4 md:px-6 py-16">
                   <div className="relative flex flex-col lg:flex-row items-center gap-8">
                     <div className="w-full lg:w-1/2 h-80 md:h-[500px] overflow-hidden rounded-3xl group" data-aos="fade-right" data-aos-duration="1000">
                         <img 
@@ -282,7 +282,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <footer className="w-full max-w-[1200px] mx-auto h-fit bg-transparent flex items-center py-16 px-4 md:px-6">
+              <footer className="w-full max-w-[1200px] mx-auto h-fit bg-white flex items-center py-16 px-4 md:px-6">
                   <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-10">
                       <div className="w-full lg:w-2/5" data-aos="fade-up">
                           <p className="mb-2 font-semibold">Find us!</p>
