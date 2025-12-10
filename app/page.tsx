@@ -272,7 +272,7 @@ export default function Home() {
                       <input 
                         type="email" 
                         placeholder="Enter your email address"
-                        className="rounded-lg text-sm bg-white px-4 sm:px-6 py-3 w-full sm:w-80 md:w-96"  
+                        className="rounded-lg text-sm bg-white px-4 sm:px-6 py-3 w-full sm:w-80 md:w-96 placeholder:text-gray-600"  
                       />
                       <button className="text-white rounded-md text-sm cursor-pointer font-bold bg-blue-700 px-6 py-3 w-full sm:w-auto hover:scale-105 transform transition-all ease-in-out duration-300 flex items-center justify-center">
                         <BsFillSendFill size={18} className="text-white mr-2"/>
@@ -285,7 +285,7 @@ export default function Home() {
               <footer className="w-full max-w-[1200px] mx-auto h-fit bg-white flex items-center py-16 px-4 md:px-6">
                   <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-10">
                       <div className="w-full lg:w-2/5" data-aos="fade-up">
-                          <p className="mb-2 font-semibold">Find us!</p>
+                          <p className="mb-2 font-semibold text-gray-700">Find us!</p>
                           <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-lg">
                               <iframe
                                 src="https://www.google.com/maps?q=-31.734916,115.733892&z=14&output=embed"
