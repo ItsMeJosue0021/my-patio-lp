@@ -126,38 +126,38 @@ export default function Home() {
                     <div className="w-full lg:w-1/2 space-y-4" data-aos="fade-left" data-aos-duration="1000">
                         <div className="flex flex-col items-center md:items-start space-y-5 md:space-y-2">
                             <p className="text-3xl font-bold text-blue-600 text-center md:text-left">Free Design & Quote</p>
-                            <p className="text-sm md:text-base text-center md:text-left">One of our highly trained design assessors will visit you at home, 
+                            <p className="text-gray-700 text-sm md:text-base text-center md:text-left">One of our highly trained design assessors will visit you at home, 
                               discuss your ideas, and provide an in-depth quote for your new patio.
                             </p>
                             <p className="text-3xl font-bold text-blue-600 text-center md:text-left">Look at our service to you!</p>
                             <div className="text-base md:text-lg space-y-2">
                               <div className="flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Free design and quote</p>
+                                <p className="text-gray-700 text-base">Free design and quote</p>
                               </div>
                               <div className="flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Custom designed - simple, difficult, or something out of the box</p>
+                                <p className="text-gray-700 text-base">Custom designed - simple, difficult, or something out of the box</p>
                               </div>
                               <div className="flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Fully engineered </p>
+                                <p className="text-gray-700 text-base">Fully engineered </p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className=" flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Plans & council included</p>
+                                <p className="text-gray-700 text-base">Plans & council included</p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className=" flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Manufacturers' product warranty up to 10 years</p>
+                                <p className="text-gray-700 text-base">Manufacturers' product warranty up to 10 years</p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className=" flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Professionally handled from start to finish</p>
+                                <p className="text-gray-700 text-base">Professionally handled from start to finish</p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className="text-gray-700 flex items-center gap-4">
                                 <FaCheck size={16} className="text-green-500"/>
-                                <p className="text-base">Fully installed or kit form</p>
+                                <p className="text-gray-700 text-base">Fully installed or kit form</p>
                               </div>
                             </div>
                             <button className="mt-2 text-white rounded-md text-base md:text-lg cursor-pointer font-bold bg-blue-700 px-6 py-3 w-fit uppercase hover:scale-105 transform transition-all ease-in-out duration-300">Get a Free Quote</button>
@@ -303,19 +303,19 @@ export default function Home() {
                           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
                               <div className="flex items-center gap-4">
                                 <FaBriefcase size={16} className="text-red-500"/>
-                                <p>ABN: 20082254108</p>
+                                <p className="text-gray-700">ABN: 20082254108</p>
                               </div>
                               <div className="flex items-center gap-4">
                                 <FaBriefcase size={16} className="text-red-500"/>
-                                <p>ABN: 082254108</p>
+                                <p className="text-gray-700">ABN: 082254108</p>
                               </div>
                               <div className="flex items-center gap-4">
                                 <IoLocationSharp size={16} className="text-red-500"/>
-                                <p>Perth, WA</p>
+                                <p className="text-gray-700">Perth, WA</p>
                               </div>
                               <div className="flex items-center gap-4 cursor-pointer">
                                 <FaPhone size={16} className="text-red-500"/>
-                                <p>0420 361 450</p>
+                                <p className="text-gray-700">0420 361 450</p>
                               </div>
                           </div>
                       </div>
@@ -323,23 +323,23 @@ export default function Home() {
                       <div className="flex flex-col gap-6 mt-4 w-full sm:w-1/2 lg:w-auto" data-aos="fade-up" data-aos-delay="200">
                           <p className="text-2xl font-bold text-blue-600 text-center md:text-left">Quick Link</p>
                           <div className="flex flex-col items-center md:items-start gap-3">
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">About</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Projects</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Australian Patio</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Building Permit</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Contact</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">FAQ's</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">About</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Projects</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Australian Patio</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Building Permit</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Contact</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">FAQ's</p>
                           </div>
                       </div>
 
                       <div className="flex flex-col gap-6 mt-4 w-full sm:w-1/2 lg:w-auto" data-aos="fade-up" data-aos-delay="300">
                           <p className="text-2xl font-bold text-blue-600 text-center md:text-left">Australian Patio</p>
                           <div className="flex flex-col items-center md:items-start gap-3">
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Flat</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Gable</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Skillion</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Insulated</p>
-                              <p className="cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Carport</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Flat</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Gable</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Skillion</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Insulated</p>
+                              <p className="text-gray-700 cursor-pointer hover:text-blue-600 hover:underline transition-all ease-in-out duration-300">Carport</p>
                           </div>
                       </div>
                   </div>
