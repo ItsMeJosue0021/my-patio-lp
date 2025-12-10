@@ -31,12 +31,12 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="flex w-full min-h-screen items-start bg-white font-sans dark:bg-black">
+        <div className="flex w-full min-h-screen items-start bg-white font-sans dark:bg-black overflow-x-hidden">
             <div className="absolute top-0 left-0 w-full h-screen">
               <img src="/patio11.jpg" alt="image" className="w-screen h-screen object-cover"/>
             </div>
 
-            <div className="w-screen z-50">
+            <div className="w-full z-50">
               <header
                 className={`fixed top-0 left-0 w-full z-10 transition-[padding] duration-300 ${
                   isScrolled ? "md:py-4" : "md:py-12"
@@ -170,7 +170,7 @@ export default function Home() {
                   <div className="w-full max-w-[1200px] mx-auto">
                     <div className="flex flex-col gap-8 ">
                       <div>
-                          <p className="w-full text-center text-2xl font-semibold">Our Projects</p>
+                          <p className="w-full text-center text-2xl font-semibold text-gray-800">Our Projects</p>
                       </div>
                       <div className="flex flex-wrap gap-5 justify-center ">
                           <div className="w-full sm:w-[300px] md:w-[360px] h-64 md:h-72 overflow-hidden group rounded-xl cursor-pointer" data-aos="zoom-in" data-aos-delay="0">
