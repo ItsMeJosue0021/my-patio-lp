@@ -115,7 +115,7 @@ export default function Home() {
 
               <div className="w-full max-w-[1200px] mx-auto min-h-screen bg-transparent flex items-center px-4 md:px-6 py-16">
                   <div className="relative flex flex-col lg:flex-row items-center gap-8">
-                    <div className="w-full lg:w-1/2 h-80 md:h-[500px] overflow-hidden rounded-3xl group" data-aos="fade-right">
+                    <div className="w-full lg:w-1/2 h-80 md:h-[500px] overflow-hidden rounded-3xl group" data-aos="fade-right" data-aos-duration="1000">
                         <img 
                           src="/patio4.jpg" 
                           alt="image" 
@@ -123,7 +123,7 @@ export default function Home() {
                         />
                     </div>
                     
-                    <div className="w-full lg:w-1/2 space-y-4" data-aos="fade-left">
+                    <div className="w-full lg:w-1/2 space-y-4" data-aos="fade-left" data-aos-duration="1000">
                         <div className="flex flex-col items-center md:items-start space-y-5 md:space-y-2">
                             <p className="text-3xl font-bold text-blue-600 text-center md:text-left">Free Design & Quote</p>
                             <p className="text-sm md:text-base text-center md:text-left">One of our highly trained design assessors will visit you at home, 
